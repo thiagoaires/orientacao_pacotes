@@ -1,6 +1,6 @@
 
 
-# conteúdo do cruso de Arquitetura: Orientaçao a pacotes da Alura
+# Conteúdo do curso de Arquitetura: Orientaçao a pacotes da Alura
 
 https://cursos.alura.com.br/course/flutter-praticando-orientacao-pacotes
 
