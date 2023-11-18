@@ -1,3 +1,4 @@
+import 'package:bytebank_balance/bytebank_balance.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bytebank/_core/constants/bytebank_colors.dart';
 import 'package:flutter_bytebank/_core/constants/bytebank_transfers_types.dart';
@@ -36,6 +37,9 @@ class _TransfersPageState extends State<TransfersPage> {
         children: [
           const TransferTitleWidget(),
           const HeightMargin(MarginType.large),
+          const BytebankBalance(
+            color: BytebankColors.black,
+          ),
           TransferTransitionTypeWidget(
             transferType: transferType,
             onChanged: (value) {

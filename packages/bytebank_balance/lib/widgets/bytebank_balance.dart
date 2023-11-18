@@ -1,12 +1,10 @@
-import 'package:flutter/material.dart';
+part of '../bytebank_balance.dart';
 
-import '../constants/bytebank_colors.dart';
-
-class BalanceWidget extends StatelessWidget {
+class BytebankBalance extends StatelessWidget {
   final Color color;
-  const BalanceWidget({
+  const BytebankBalance({
     super.key,
-    this.color = BytebankColors.white,
+    required this.color,
   });
 
   @override
